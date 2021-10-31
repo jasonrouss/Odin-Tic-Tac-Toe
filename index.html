@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Title -->
+    <div id="title" class="title">Tic Tac Toe</div>
+
+    <!-- Player Display -->
+    <div id="player" class="player">
+      <div id="player1" class="player1">Player </br> <span class="X">X</span></div>
+      <div id="player2" class="player2">Player </br> <span class="O">O</span></div>
+    </div>
+
+    <!-- Score -->
+    <div id="score" class="score">Score</div>
+    <div id="result" class="result">0-0</div>
+
+    <!-- Board Display and Elements -->
+    <div class="board" id="board">
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+      <div class="boardTile" tile></div>
+    </div>
+
+    <!-- Replay -->
+    <button id="restartButton">
+      <i class="bi bi-bootstrap-reboot"></i>
+    </button>
+    <script src="app.js"></script>
+  </body>
+</html>
